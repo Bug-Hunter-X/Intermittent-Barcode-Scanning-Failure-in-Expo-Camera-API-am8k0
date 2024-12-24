@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The issue is that sometimes, even with the correct permissions set, the barcode scanner fails to recognize barcodes, returning no data or an empty array in the `onBarCodeScanned` callback. This inconsistency isn't reliably reproducible, making it difficult to debug.
